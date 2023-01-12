@@ -1,0 +1,12 @@
+﻿#page-wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    zoom: 1.2;
+}
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}

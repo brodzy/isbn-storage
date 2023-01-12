@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ISBN Storage</title>
+    <link rel="styleSheet" href="styles.css" />
+    <script src="isbn_hash.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            width: 251px;
+        }
+        .auto-style2 {
+            width: 658px;
+            height: 378px;
+        }
+        .auto-style3 {
+            width: 665px;
+            height: 312px;
+        }
+    </style>
+</head>
+<body>
+    <div id="page-wrap">
+        <h1>ISBN Storage (Hash Function Comparison Tool)</h1>
+
+        <p>Enter ISBN: <input type="text" id="isbn" class="auto-style1"> <input id="btnEnter" type="button" value="Enter" onclick="addISBN()"/></p>
+        <p>Upload: <input id="btnUpload" type="file" value="Upload" onclick="upload()"/></p> 
+        <p>Results: <input id="btnDislpay" type="button" value="Display" onclick="displayResult()"/> Clear: <input id="btnClear" type="button" value="Clear" onclick="window.location.reload()"/></p> 
+
+        <form id="display">
+            <p><textarea id="txaResult" class="auto-style3"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        </form>
+
+        <label>ISBNs: </label>
+        <form id="displayISBN">
+            <p> <textarea id="txaISBN" class="auto-style2" name="S1"></textarea></p>
+        </form>
+
+    </div>
+</body>
+</html>
